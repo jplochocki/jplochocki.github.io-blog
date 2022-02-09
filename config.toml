@@ -1,0 +1,5 @@
+baseURL = 'https://jplochocki.github.io/'
+languageCode = 'pl-PL'
+title = '/home/systemik/blog'
+theme = 'beautifulhugo'
+
