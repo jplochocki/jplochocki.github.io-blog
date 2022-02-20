@@ -333,4 +333,5 @@ from anyio.streams.buffered import BufferedByteReceiveStream
 
 Wspominany tu kod znajduje się w pliku [pyconnect.py](https://gist.github.com/jplochocki/1a7a206ae7e2b0f2243b1fa473b31003).
 
-W następnym poście przedstawię mechanizm odbierania i wysyłania plików.
+
+W [następnym poście]({{< ref "/post/2022-02-20-pyconnect-i-pliki.md" >}}) przedstawię mechanizm odbierania i wysyłania plików.

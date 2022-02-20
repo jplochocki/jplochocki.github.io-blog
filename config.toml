@@ -2,4 +2,12 @@ baseURL = 'https://jplochocki.github.io/'
 languageCode = 'pl-PL'
 title = '/home/systemik/blog'
 theme = 'beautifulhugo'
+staticDir = ['static', 'static/post']
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    lineNos = true
