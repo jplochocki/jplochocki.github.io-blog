@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
+    <!-- test -->
     {{ if and (hugo.IsProduction) (.Site.Params.GoogleAnalyticsID) }}
     {{ partial "analytics-gtag.html" . }}
     {{ end }}
