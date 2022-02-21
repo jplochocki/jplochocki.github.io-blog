@@ -26,10 +26,10 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          destination_dir: ./public
+          external_repository: jplochocki/jplochocki.github.io
+          publish_branch: main
 
 
