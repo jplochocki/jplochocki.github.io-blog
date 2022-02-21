@@ -1,8 +1,12 @@
 baseURL = 'https://jplochocki.github.io/'
-languageCode = 'pl-PL'
+languageCode = 'pl'
+defaultContentLanguage = 'pl'
 title = '/home/systemik/blog'
 theme = 'beautifulhugo'
 staticDir = ['static', 'static/post']
+
+[Params]
+  GoogleAnalyticsID = 'G-KETRV3SXRJ'
 
 
 [markup]
